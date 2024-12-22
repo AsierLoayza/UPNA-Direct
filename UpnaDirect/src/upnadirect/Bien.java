@@ -10,8 +10,7 @@ package upnadirect;
  * @author alumno
  */
 public class Bien {
-  
-    private String tipo; // "vehículo" o "vivienda"
+    private String tipo;
     private double valor;
 
     public Bien(String tipo, double valor) {
@@ -25,6 +24,15 @@ public class Bien {
 
     public double getValor() {
         return valor;
+    }
+    
+    public boolean validarBien() {
+        if (tipo.equals("vehículo")) {
+            return valor <= 50000;
+        } else if (tipo.equals("vivienda")) {
+            return valor >= 50000;
+        }
+        return false;
     }
 }
 
