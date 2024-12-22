@@ -27,10 +27,10 @@ public class Bien {
     }
     
     public boolean validarBien() {
-        if (tipo.equals("vehículo")) {
-            return valor <= 50000;
+        if (tipo.equals("vehiculo")) {
+            return valor <= 50000 && valor > 0;
         } else if (tipo.equals("vivienda")) {
-            return valor >= 50000;
+            return valor >= 50000 && valor > 0;
         }
         return false;
     }

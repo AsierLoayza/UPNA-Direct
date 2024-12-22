@@ -25,4 +25,8 @@ public class Cliente {
     public double getSalario() {
         return salario;
     }
+    
+    public boolean validarCliente() {
+        return (anioNacimiento > 1900 && anioNacimiento <= 2024) && salario > 0;
+    }
 }

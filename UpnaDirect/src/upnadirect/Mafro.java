@@ -10,7 +10,7 @@ package upnadirect;
  * @author alumno
  */
 public class Mafro implements Aseguradora{
-    @Override
+
     public double calcularOferta(Cliente cliente, Bien bien) {
         double oferta = bien.getValor() * 0.03;
         if (bien.getTipo().equals("vehículo") && cliente.getEdad() < 20) {
