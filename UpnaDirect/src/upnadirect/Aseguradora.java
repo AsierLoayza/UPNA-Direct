@@ -12,4 +12,5 @@ package upnadirect;
 public interface Aseguradora {
     double calcularComision(double importe);   
     double calcularOferta(Cliente cliente, Bien bien);
+    String getNombre();
 }

@@ -24,7 +24,7 @@ public class TecnicoComercial {
 
             if (oferta < mejorOferta || (oferta == mejorOferta && comision > mejorComision)) {
                 mejorOferta = oferta;
-                mejorAseguradora = aseguradora.getClass().getSimpleName();
+                mejorAseguradora = aseguradora.getNombre();
                 mejorComision = comision;
             }
         }

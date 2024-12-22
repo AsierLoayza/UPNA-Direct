@@ -12,7 +12,7 @@ public class Mafro implements Aseguradora{
 
     public double calcularOferta(Cliente cliente, Bien bien) {
         double oferta = bien.getValor() * 0.03;
-        if (bien.getTipo().equals("vehículo") && cliente.getEdad() < 20) {
+        if (bien.getTipo().equals("vehiculo") && cliente.getEdad() < 20) {
             oferta = bien.getValor() * 0.05;
         } else if (bien.getTipo().equals("vivienda") && bien.getValor() > 200000 && cliente.getSalario() < 20000) {
             oferta = bien.getValor() * 0.02;
@@ -26,5 +26,9 @@ public class Mafro implements Aseguradora{
         } else {
             return (int) (importe * 0.03);
         }
+    }
+    
+    public String getNombre()   {
+        return "Mafro";
     }
 }

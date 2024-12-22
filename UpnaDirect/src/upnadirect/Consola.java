@@ -12,7 +12,11 @@ import java.util.Scanner;
  * @author alumno
  */
 public class Consola {
-
+    
+    public static String ejecutar(TecnicoComercial tecnico, Cliente cliente, Bien bien) {
+        return tecnico.calcularMejorOferta(cliente, bien);
+    }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         TecnicoComercial tecnico = new TecnicoComercial();
@@ -27,7 +31,7 @@ public class Consola {
 
             cliente = new Cliente(anioNacimiento, salario);
             if (!cliente.validarCliente()) {
-                        System.out.println("Error: Los datos del cliente no son válidos. Intente nuevamente.");
+                        System.out.println("Error: Los datos del cliente no son validos. Intente nuevamente.");
             }
         } while (!cliente.validarCliente());
         
@@ -42,7 +46,7 @@ public class Consola {
             bien = new Bien(tipo, valor);
         } while (!bien.validarBien());
 
-        String mejorOferta = tecnico.calcularMejorOferta(cliente, bien);
+        String mejorOferta = ejecutar(tecnico,cliente, bien);
         System.out.println("Mejor oferta: " + mejorOferta);
 
     }

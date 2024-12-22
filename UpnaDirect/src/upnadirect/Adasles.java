@@ -13,7 +13,7 @@ public class Adasles implements Aseguradora {
     
     public double calcularOferta(Cliente cliente, Bien bien) {
         double oferta = bien.getValor() * 0.02;
-        if (bien.getTipo().equals("vehículo") && (cliente.getEdad() < 20 || cliente.getEdad() > 60)) {
+        if (bien.getTipo().equals("vehiculo") && (cliente.getEdad() < 20 || cliente.getEdad() > 60)) {
             oferta = bien.getValor() * 0.06;
         }
         return oferta;
@@ -26,4 +26,9 @@ public class Adasles implements Aseguradora {
             return (int) (importe * 0.05);
         }
     }
+    
+    public String getNombre()   {
+        return "Adasles";
+    }
+    
 }
