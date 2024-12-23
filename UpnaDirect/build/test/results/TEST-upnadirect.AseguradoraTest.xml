@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="XUBUNTU22-0078" name="upnadirect.AseguradoraTest" skipped="0" tests="3" time="0.05" timestamp="2024-12-22T22:07:02">
+<testsuite errors="0" failures="0" hostname="XUBUNTU22-0012" name="upnadirect.AseguradoraTest" skipped="0" tests="3" time="0.056" timestamp="2024-12-23T12:03:24">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="ES" />
@@ -7,11 +7,10 @@
     <property name="libs.jsf20.maven-pom" value="" />
     <property name="libs.DataBindingME.src" value="/opt/netbeans-8.2/mobility/sources/netbeans_databindingme-src.zip" />
     <property name="libs.spring-webmvc4.0.src" value="" />
-    <property name="javac.includes" value="upnadirect/AseguradoraTest.java" />
     <property name="ant.core.lib" value="/opt/netbeans-8.2/extide/ant/lib/ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
-    <property name="user.dir" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect" />
+    <property name="user.dir" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect" />
     <property name="libs.javaee-api-7.0.src" value="" />
     <property name="java.vm.version" value="25.371-b11" />
     <property name="libs.DataBindingME.classpath" value="/opt/netbeans-8.2/mobility/modules/ext/netbeans_databindingme.jar" />
@@ -38,7 +37,6 @@
     <property name="libs.hamcrest.classpath" value="/opt/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
     <property name="libs.javac-api.javadoc" value="" />
     <property name="os.name" value="Linux" />
-    <property name="test.class" value="upnadirect.AseguradoraTest" />
     <property name="libs.beans-binding.classpath" value="/opt/netbeans-8.2/java/modules/ext/beansbinding-1.2.1.jar" />
     <property name="java.specification.maintenance.version" value="4" />
     <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
@@ -60,7 +58,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner upnadirect.AseguradoraTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build/test/results/TEST-upnadirect.AseguradoraTest.xml crashfile=/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build/junitvmwatcher3455694120091168624.properties propsfile=/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build/junit7943064171800543270.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner upnadirect.AseguradoraTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build/test/results/TEST-upnadirect.AseguradoraTest.xml crashfile=/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build/junitvmwatcher9202377556425786143.properties propsfile=/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build/junit4557632273875860001.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -70,7 +68,7 @@
     <property name="libs.javaee-endorsed-api-7.0.javadoc" value="/opt/netbeans-8.2/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.jaxws21.javadoc" value="/opt/netbeans-8.2/java/docs/jaxws-api-doc.zip" />
     <property name="libs.spring-webmvc4.0.javadoc" value="" />
-    <property name="includes" value="**" />
+    <property name="includes" value="upnadirect/**/*Test.java" />
     <property name="user.country" value="ES" />
     <property name="manifest.file" value="manifest.mf" />
     <property name="addExports:java.desktop/sun.awt" value="ALL-UNNAMED" />
@@ -85,7 +83,6 @@
     <property name="libs.jsp-compilation-syscp.classpath" value="/opt/netbeans-8.2/extide/ant/lib/ant.jar:/opt/netbeans-8.2/enterprise/modules/ext/servlet3.1-jsp2.3-api.jar:/opt/netbeans-8.2/enterprise/modules/ext/glassfish-jspparser-4.0.jar:/opt/netbeans-8.2/enterprise/modules/ext/jstl-impl.jar:/opt/netbeans-8.2/enterprise/modules/ext/jsf-2_2/javax.faces.jar" />
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/jdk1.8.0_371/jre/lib/endorsed" />
     <property name="libs.groovy-all.src" value="" />
-    <property name="test.includes" value="upnadirect/AseguradoraTest.java" />
     <property name="netbeans.dynamic.classpath" value="/opt/netbeans-8.2/platform/core/org-openide-filesystems.jar:/opt/netbeans-8.2/platform/core/core.jar:/opt/netbeans-8.2/platform/core/org-openide-filesystems-compat8.jar:/opt/netbeans-8.2/platform/core/org-netbeans-libs-asm.jar:/opt/netbeans-8.2/platform/core/core-base.jar:/opt/netbeans-8.2/platform/core/asm-all-5.0.1.jar:/opt/netbeans-8.2/platform/core/locale/core_ja.jar:/opt/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ru.jar:/opt/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_zh_CN.jar:/opt/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_ja.jar:/opt/netbeans-8.2/platform/core/locale/core_pt_BR.jar:/opt/netbeans-8.2/platform/core/locale/core-base_zh_CN.jar:/opt/netbeans-8.2/platform/core/locale/org-openide-filesystems-compat8_pt_BR.jar:/opt/netbeans-8.2/platform/core/locale/org-openide-filesystems_ja.jar:/opt/netbeans-8.2/platform/core/locale/core_ru.jar:/opt/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_pt_BR.jar:/opt/netbeans-8.2/platform/core/locale/core-base_pt_BR.jar:/opt/netbeans-8.2/platform/core/locale/core_zh_CN.jar:/opt/netbeans-8.2/platform/core/locale/core-base_ja.jar:/opt/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ru.jar:/opt/netbeans-8.2/platform/core/locale/org-openide-filesystems_zh_CN.jar:/opt/netbeans-8.2/platform/core/locale/core-base_ru.jar:/opt/netbeans-8.2/platform/core/locale/org-openide-filesystems_ru.jar:/opt/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_zh_CN.jar:/opt/netbeans-8.2/platform/core/locale/org-openide-filesystems_pt_BR.jar:/opt/netbeans-8.2/platform/core/locale/org-netbeans-libs-asm_ja.jar:/opt/netbeans-8.2/nb/core/org-netbeans-upgrader.jar:/opt/netbeans-8.2/nb/core/locale/core_nb_ja.jar:/opt/netbeans-8.2/nb/core/locale/core_nb.jar:/opt/netbeans-8.2/nb/core/locale/core_nb_zh_CN.jar:/opt/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ja.jar:/opt/netbeans-8.2/nb/core/locale/core_nb_pt_BR.jar:/opt/netbeans-8.2/nb/core/locale/core_nb_ru.jar:/opt/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/opt/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/opt/netbeans-8.2/nb/core/locale/org-netbeans-upgrader_ru.jar" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="libs.hibernate4-support.src" value="" />
@@ -103,7 +100,6 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
-    <property name="javac.includesfile.binary" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/null162601442" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value=":build/classes:/opt/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/opt/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar" />
@@ -116,7 +112,6 @@
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="/opt/netbeans-8.2/ide/docs/jaxb-api-doc.zip" />
     <property name="libs.struts.classpath" value="/opt/netbeans-8.2/enterprise/modules/ext/struts/antlr-2.7.2.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/bsf-2.3.0.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/commons-beanutils-1.8.0.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/commons-chain-1.2.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/commons-digester-1.8.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/commons-fileupload-1.1.1.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/commons-io-1.1.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/commons-logging-1.0.4.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/commons-validator-1.3.1.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/jstl-1.0.2.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/oro-2.0.8.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/standard-1.0.6.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/struts-core-1.3.10.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/struts-el-1.3.10.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/struts-extras-1.3.10.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/struts-faces-1.3.10.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/struts-mailreader-dao-1.3.10.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/struts-scripting-1.3.10.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/struts-taglib-1.3.10.jar:/opt/netbeans-8.2/enterprise/modules/ext/struts/struts-tiles-1.3.10.jar" />
-    <property name="javac.includes.binary" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build/test/classes/upnadirect/AseguradoraTest.class" />
     <property name="ant.home" value="/opt/netbeans-8.2/extide/ant" />
     <property name="libs.junit_4.src" value="/opt/netbeans-8.2/platform/docs/junit-4.12-sources.jar" />
     <property name="ant.file.type.UpnaDirect" value="file" />
@@ -130,7 +125,7 @@
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect" />
+    <property name="basedir" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="libs.javaee-web-api-7.0.classpath" value="/opt/netbeans-8.2/enterprise/modules/ext/javaee-web-api-7.0.jar" />
@@ -151,14 +146,14 @@
     <property name="libs.primefaces.javadoc" value="" />
     <property name="libs.spring-framework300.maven-pom" value="" />
     <property name="run.test.classpath" value=":build/classes:/opt/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/opt/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:build/test/classes" />
-    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="ant.project.invoked-targets" value="test" />
     <property name="test.binaryexcludes" value="" />
     <property name="libs.swing-layout.javadoc" value="/opt/netbeans-8.2/platform/docs/swing-layout-1.0.4-doc.zip" />
     <property name="sun.java2d.dpiaware" value="true" />
     <property name="libs.hibernate4-persistence.maven-pom" value="" />
     <property name="addExports:java.base/jdk.internal.jrtfs" value="ALL-UNNAMED" />
     <property name="libs.DataBindingME-SVG.classpath" value="/opt/netbeans-8.2/mobility/modules/ext/netbeans_databindingme_svg.jar" />
-    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|XUBUNTU22-0078" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|XUBUNTU22-0012" />
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="52.0" />
     <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
@@ -175,7 +170,7 @@
     <property name="libs.spring-webmvc4.0.maven-pom" value="" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="libs.jstl.src" value="" />
-    <property name="empty.dir" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build/empty" />
+    <property name="empty.dir" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build/empty" />
     <property name="version-output" value="java version &quot;1.8" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
@@ -194,7 +189,7 @@
     <property name="libs.restlib.classpath" value="/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/asm-all-repackaged-2.2.0-b21.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/cglib-2.2.0-b21.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/guava-14.0.1.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/hk2-api-2.2.0-b21.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/hk2-locator-2.2.0-b21.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/hk2-utils-2.2.0-b21.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/javax.annotation-api-1.2.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/javax.inject-2.2.0-b21.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/javax.servlet-api-3.0.1.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/jaxb-api-2.2.7.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/jersey-entity-filtering-2.5.1.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/jersey-media-moxy-2.5.1.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/org.osgi.core-4.2.0.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/osgi-resource-locator-1.0.1.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/persistence-api-1.0.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/ext/validation-api-1.1.0.Final.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/jersey-client.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/jersey-common.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/jersey-container-servlet.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/jersey-container-servlet-core.jar:/opt/netbeans-8.2/enterprise/modules/ext/jersey2/jersey-server.jar:/opt/netbeans-8.2/java/modules/ext/eclipselink/eclipselink.jar" />
     <property name="libs.MySQLDriver.maven-pom" value="" />
     <property name="libs.hibernate4-persistence.javadoc" value="/opt/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
-    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|XUBUNTU22-0078" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|XUBUNTU22-0012" />
     <property name="libs.junit_4.javadoc" value="/opt/netbeans-8.2/platform/docs/junit-4.12-javadoc.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
     <property name="run.classpath" value=":build/classes" />
@@ -217,7 +212,7 @@
     <property name="javac.processorpath" value="" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build.xml" />
+    <property name="ant.file" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="/opt/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="libs.jsf12.classpath" value="/opt/netbeans-8.2/enterprise/modules/ext/jsf-1_2/commons-beanutils.jar:/opt/netbeans-8.2/enterprise/modules/ext/jsf-1_2/commons-collections.jar:/opt/netbeans-8.2/enterprise/modules/ext/jsf-1_2/commons-digester.jar:/opt/netbeans-8.2/enterprise/modules/ext/jsf-1_2/commons-logging.jar:/opt/netbeans-8.2/enterprise/modules/ext/jsf-1_2/jsf-api.jar:/opt/netbeans-8.2/enterprise/modules/ext/jsf-1_2/jsf-impl.jar" />
@@ -253,7 +248,7 @@
     <property name="libs.spring-framework400.maven-pom" value="" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.project.name" value="UpnaDirect" />
-    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_MOB_PHP_TOMCAT_WEBCOMMON_WEBEE09dcb1b54-eb79-44b7-b71b-8034d51c6189_e3ad11e8-a82c-4524-94dc-9b4c42d24078" />
+    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_MOB_PHP_TOMCAT_WEBCOMMON_WEBEE03636a786-65cf-4f2a-bb83-199107551603_f7026152-433e-4e6d-b8b3-73aff3712b8f" />
     <property name="netbeans.default_userdir_root" value="/home/alumno/.netbeans" />
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="sun.cpu.isalist" value="" />
@@ -292,11 +287,11 @@
     <property name="netbeans.home+have.tests" value="true" />
     <property name="annotation.processing.processor.options" value="" />
     <property name="libs.testng.maven-pom" value="" />
-    <property name="ant.file.UpnaDirect-impl" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/nbproject/build-impl.xml" />
+    <property name="ant.file.UpnaDirect-impl" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/nbproject/build-impl.xml" />
     <property name="libs.jaxb.src" value="" />
-    <property name="work.dir" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect" />
+    <property name="work.dir" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect" />
     <property name="libs.jaxb.classpath" value="/opt/netbeans-8.2/ide/modules/ext/jaxb/jaxb-impl.jar:/opt/netbeans-8.2/ide/modules/ext/jaxb/jaxb-xjc.jar:/opt/netbeans-8.2/ide/modules/ext/jaxb/jaxb1-impl.jar:/opt/netbeans-8.2/ide/modules/ext/jaxb/activation.jar:/opt/netbeans-8.2/ide/modules/ext/jaxb/api/jaxb-api.jar:/opt/netbeans-8.2/ide/modules/ext/jaxb/api/jsr173_1.0_api.jar" />
-    <property name="ant.file.UpnaDirect" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build.xml" />
+    <property name="ant.file.UpnaDirect" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build.xml" />
     <property name="do.depend" value="false" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="libs.j2me_common_ant.classpath" value="/opt/netbeans-8.2/mobility/modules/org-netbeans-modules-j2me-common-ant.jar:/opt/netbeans-8.2/java/modules/org-netbeans-modules-classfile.jar" />
@@ -308,14 +303,14 @@
     <property name="build.generated.dir" value="build/generated" />
     <property name="line.separator" value="&#xa;" />
     <property name="java.specification.version" value="1.8" />
-    <property name="libs.jaxws21.maven-pom" value="" />
     <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.jaxws21.maven-pom" value="" />
     <property name="nb.junit.batch" value="true" />
     <property name="junit.forkmode" value="perTest" />
     <property name="addExports:java.management/sun.management" value="ALL-UNNAMED" />
     <property name="sun.boot.class.path" value="/usr/lib/jvm/jdk1.8.0_371/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_371/jre/lib/rt.jar:/usr/lib/jvm/jdk1.8.0_371/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_371/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_371/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_371/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_371/jre/classes" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build/built-jar.properties" />
+    <property name="built-jar.properties" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build/built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="libs.jpa2-persistence.src" value="" />
@@ -325,21 +320,22 @@
     <property name="libs.DataBindingME-SVG.maven-pom" value="" />
     <property name="libs.jsf12.src" value="" />
     <property name="libs.struts.javadoc" value="/opt/netbeans-8.2/enterprise/docs/struts-1.3.10-javadoc.zip" />
+    <property name="ignore.failing.tests" value="true" />
     <property name="libs.javaee-web-api-7.0.src" value="" />
     <property name="libs.primefaces.src" value="" />
     <property name="dist.dir" value="dist" />
     <property name="libs.groovy-all.javadoc" value="" />
     <property name="testng.debug.mode" value="" />
-    <property name="libs.groovy-all.classpath" value="/opt/netbeans-8.2/groovy/modules/ext/groovy-all.jar" />
     <property name="javac.fork" value="true" />
+    <property name="libs.groovy-all.classpath" value="/opt/netbeans-8.2/groovy/modules/ext/groovy-all.jar" />
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
     <property name="default.javac.source" value="1.8" />
     <property name="debug-transport-by-os" value="dt_socket" />
     <property name="libs.MySQLDriver.src" value="" />
     <property name="sun.jnu.encoding" value="UTF-8" />
     <property name="ant.file.type.UpnaDirect-impl" value="file" />
-    <property name="java.runtime.version" value="1.8.0_371-b11" />
     <property name="build.test.results.dir" value="build/test/results" />
+    <property name="java.runtime.version" value="1.8.0_371-b11" />
     <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/usr/local/lib:/lib/i386-linux-gnu:/libx32:/lib32:/usr/lib/x86_64-linux-gnu/libfakeroot" />
     <property name="default.javac.target" value="1.8" />
     <property name="libs.junit_4.classpath" value="/opt/netbeans-8.2/platform/modules/ext/junit-4.12.jar" />
@@ -358,7 +354,7 @@
     <property name="libs.jpa2-persistence.javadoc" value="/opt/netbeans-8.2/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="libs.DataBindingME.javadoc" value="/opt/netbeans-8.2/mobility/modules/docs/netbeans_databindingme-api.zip" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
-    <property name="java.class.path" value="/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build/classes:/opt/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/opt/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:/home/alumno/Escritorio/UPNA-Direct/UpnaDirect/build/test/classes:/opt/netbeans-8.2/extide/ant/lib/ant-launcher.jar:/opt/netbeans-8.2/extide/ant/lib/ant.jar:/opt/netbeans-8.2/extide/ant/lib/ant-junit.jar:/opt/netbeans-8.2/extide/ant/lib/ant-junit4.jar" />
+    <property name="java.class.path" value="/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build/classes:/opt/netbeans-8.2/platform/modules/ext/junit-4.12.jar:/opt/netbeans-8.2/platform/modules/ext/hamcrest-core-1.3.jar:/home/alumno/Escritorio/UPNADirect-149352/UpnaDirect/build/test/classes:/opt/netbeans-8.2/extide/ant/lib/ant-launcher.jar:/opt/netbeans-8.2/extide/ant/lib/ant.jar:/opt/netbeans-8.2/extide/ant/lib/ant-junit.jar:/opt/netbeans-8.2/extide/ant/lib/ant-junit4.jar" />
     <property name="addExports:java.desktop/java.awt.peer" value="ALL-UNNAMED" />
     <property name="addExports:java.desktop/com.sun.beans.editors" value="ALL-UNNAMED" />
     <property name="do.mkdist" value="true" />
@@ -373,12 +369,12 @@
     <property name="libs.hibernate4-support.maven-pom" value="" />
     <property name="scala.home" value="/usr/share/scala" />
     <property name="libs.restlib.javadoc" value="" />
+    <property name="nb.internal.action.name" value="test" />
     <property name="libs.JAXB-ENDORSED.classpath" value="/opt/netbeans-8.2/ide/modules/ext/jaxb/api/jaxb-api.jar" />
-    <property name="nb.internal.action.name" value="run.single" />
-    <property name="libs.javaee-api-7.0.javadoc" value="/opt/netbeans-8.2/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.eclipselink.classpath" value="/opt/netbeans-8.2/java/modules/ext/eclipselink/eclipselink.jar:/opt/netbeans-8.2/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar:/opt/netbeans-8.2/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
-    <property name="libs.beans-binding.javadoc" value="/opt/netbeans-8.2/java/docs/beansbinding-1.2.1-doc.zip" />
+    <property name="libs.javaee-api-7.0.javadoc" value="/opt/netbeans-8.2/enterprise/docs/javaee-doc-api.jar" />
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="libs.beans-binding.javadoc" value="/opt/netbeans-8.2/java/docs/beansbinding-1.2.1-doc.zip" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="libs.CopyLibs.classpath" value="/opt/netbeans-8.2/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="libs.spring-framework300.classpath" value="/opt/netbeans-8.2/ide/modules/org-apache-commons-logging.jar:/opt/netbeans-8.2/java/modules/ext/cglib-2.2.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-aop-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-aspects-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-beans-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-build-src-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-context-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-context-support-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-core-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-expression-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-framework-bom-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-instrument-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-instrument-tomcat-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-jdbc-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-jms-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-orm-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-oxm-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-struts-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-test-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-tx-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-web-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-webmvc-3.2.7.RELEASE.jar:/opt/netbeans-8.2/java/modules/ext/spring-3.0/spring-webmvc-portlet-3.2.7.RELEASE.jar" />
@@ -399,16 +395,16 @@
     <property name="build.dir" value="build" />
     <property name="libs.jsp-compilation.classpath" value="/opt/netbeans-8.2/extide/ant/lib/ant.jar:/opt/netbeans-8.2/enterprise/modules/ext/servlet3.1-jsp2.3-api.jar:/opt/netbeans-8.2/enterprise/modules/ext/glassfish-jspparser-4.0.jar:/opt/netbeans-8.2/enterprise/modules/ext/jsf-2_2/javax.faces.jar:/opt/netbeans-8.2/enterprise/modules/ext/jstl-api.jar:/opt/netbeans-8.2/extide/ant/lib/ant-launcher.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
-    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="file.encoding" value="UTF-8" />
-    <property name="jdkBug6558476" value="false" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="javadoc.nonavbar" value="false" />
+    <property name="jdkBug6558476" value="false" />
     <property name="libs.spring-webmvc4.0.classpath" value="/opt/netbeans-8.2/java/modules/ext/spring-4/spring-webmvc-4.0.1.RELEASE.jar" />
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="/opt/netbeans-8.2/enterprise/docs/javaee-doc-api.jar" />
   </properties>
-  <testcase classname="upnadirect.AseguradoraTest" name="testOfertaLineaIndirecta" time="0.001" />
+  <testcase classname="upnadirect.AseguradoraTest" name="testOfertaLineaIndirecta" time="0.002" />
   <testcase classname="upnadirect.AseguradoraTest" name="testOfertaAdasles" time="0.0" />
   <testcase classname="upnadirect.AseguradoraTest" name="testOfertaMafro" time="0.0" />
   <system-out><![CDATA[]]></system-out>

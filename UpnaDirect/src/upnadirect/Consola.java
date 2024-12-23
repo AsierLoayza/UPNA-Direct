@@ -31,7 +31,7 @@ public class Consola {
 
             cliente = new Cliente(anioNacimiento, salario);
             if (!cliente.validarCliente()) {
-                        System.out.println("Error: Los datos del cliente no son validos. Intente nuevamente.");
+                System.out.println("Error: Los datos del cliente no son validos. Intente nuevamente.");
             }
         } while (!cliente.validarCliente());
         
@@ -44,6 +44,9 @@ public class Consola {
             double valor = scanner.nextDouble();
 
             bien = new Bien(tipo, valor);
+            if (!bien.validarBien()) {
+                System.out.println("Error: Los datos del bien no son validos. Intente nuevamente.");
+            }
         } while (!bien.validarBien());
 
         String mejorOferta = ejecutar(tecnico,cliente, bien);
